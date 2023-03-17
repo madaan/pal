@@ -46,7 +46,3 @@ For running bulk inference, we used the generic prompting library [prompt-lib](h
 <img width="1166" alt="image" src="https://user-images.githubusercontent.com/15002544/202954780-7e1221f1-3008-46d9-877b-b26df9f98d66.png">
 
 <img width="597" alt="image" src="https://user-images.githubusercontent.com/15002544/202954797-68e8d45d-3435-4abf-96e4-f10371b55e38.png">
-
-For the complete details of the results, see the [paper](https://arxiv.org/pdf/2211.10435.pdf) .
-
-

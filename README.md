@@ -1,5 +1,5 @@
 # PaL:  Program-Aided Language Model
-Repo for the paper [PaL: Program-Aided Language Models](https://arxiv.org/pdf/2211.10435.pdf).
+.
 
 In PaL, Large Language Model solves reasoning problems that involve complex arithmetic and procedural tasks by generating reasoning chains of **text and code**.  This offloads the execution of the code to a program runtime, in our case, a Python interpreter. In our paper, we implement PaL using a few-shot prompting approach. 
 
@@ -7,20 +7,6 @@ In PaL, Large Language Model solves reasoning problems that involve complex arit
 
 
 This repo provides an interactive implementation of PAL.
-
-## News 📢
-[Jan 2023] We release [GSM-hard](https://github.com/reasoning-machines/pal/blob/main/datasets/gsmhardv2.jsonl), a harder version of GSM8k we created. Also avaliable on [Huggingface 🤗](https://huggingface.co/datasets/reasoning-machines/gsm-hard)
-```python
-import datasets
-gsm_hard = datasets.load_dataset("reasoning-machines/gsm-hard")
-
-```
-## Installation
-Clone this repo and install with `pip`.
-```
-git clone https://github.com/luyug/pal
-pip install -e ./pal
-```
 
 Before running the scripts, set the OpenAI key,
 ```export OPENAI_API_KEY='sk-...'```
@@ -63,12 +49,4 @@ For running bulk inference, we used the generic prompting library [prompt-lib](h
 
 For the complete details of the results, see the [paper](https://arxiv.org/pdf/2211.10435.pdf) .
 
-## Citation
-```
-@article{gao2022pal,
-  title={PAL: Program-aided Language Models},
-  author={Gao, Luyu and Madaan, Aman and Zhou, Shuyan and Alon, Uri and Liu, Pengfei and Yang, Yiming and Callan, Jamie and Neubig, Graham},
-  journal={arXiv preprint arXiv:2211.10435},
-  year={2022}
-}
-```
+

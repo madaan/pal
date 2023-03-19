@@ -1,5 +1,5 @@
 # PaL:  Program-Aided Language Model
-.
+
 
 In PaL, Large Language Model solves reasoning problems that involve complex arithmetic and procedural tasks by generating reasoning chains of **text and code**.  This offloads the execution of the code to a program runtime, in our case, a Python interpreter. In our paper, we implement PaL using a few-shot prompting approach. 
 
@@ -37,7 +37,6 @@ mkdir eval_results
 python scripts/{colored_objects|gsm|date_understanding|penguin}_eval.py
 ``` 
 
-For running bulk inference, we used the generic prompting library [prompt-lib](https://github.com/madaan/prompt-lib) and recommend it for running CoT inferenence on all tasks used in our work.
 
 ## Results
 
